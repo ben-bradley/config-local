@@ -1,0 +1,23 @@
+{
+  "name": "config-local",
+  "version": "0.0.1",
+  "description": "A wrapper for config to load configs that are local to a module",
+  "main": "index.js",
+  "dependencies": {
+    "config": "^1.14.0",
+    "debug": "^2.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-nodemon": "^2.0.3",
+    "gulp-run": "^1.6.8",
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test mocha -R spec test/spec.js"
+  },
+  "author": "Ben Bradley",
+  "license": "MIT"
+}
