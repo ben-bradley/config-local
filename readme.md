@@ -1,4 +1,4 @@
-# config-local [![Build Status](https://secure.travis-ci.org/ben-bradleyconfig-local.png?branch=master)](https://travis-ci.org/ben-bradley/config-local)
+# config-local [![Build Status](https://secure.travis-ci.org/ben-bradley/config-local.png?branch=master)](https://travis-ci.org/ben-bradley/config-local)
 
 I wanted to use the Hapi plugin framework to load specific integration modules into an API, but found that the configs for each module were getting stomped on when I ran them in the server framework.  Instead of writing the same few lines of code in each plugin/module to read from the local config folder, I wrote this to make it easy.
 
